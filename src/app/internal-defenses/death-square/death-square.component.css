@@ -1,0 +1,22 @@
+div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 75vh;
+	width: 75vw;
+	background-color: grey;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+app-turret {
+	height: 10%;
+	width: 10%;
+}
+
+app-laser-cannoon{
+	position: absolute;
+	height: 13%;
+	width: 13%;
+	align-self: center;
+}
